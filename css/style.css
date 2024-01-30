@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+footer a {
+    color: #333333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+.section-unique-one, .section-unique-two {
+    background-color: #e9ecef;
+    padding: 2rem;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #333333;
+    font-size: 16px;
+}
+
+h1 {
+    color: #212529;
+    font-size: 2.5rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333333;
+    margin: 1rem 0;
+}
+
+.img-top {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #333333;
+}
+
+.card {
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.list-languages, .list-experiences, .list-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+}
+
+.one-col {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+}
